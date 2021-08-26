@@ -51,7 +51,8 @@ python get_influencers.py
 python influencer.py
 ```
 
-> It will ask for the [Hyperauditor](https://hypeauditor.com) username and password
-> and [Instagram](https://instagram.com) username and password
-> This gets and creates an excel report of first 5 influencers.
-> You can change THE NUMBER in "line 197" as you want
+> It will ask for the [Hyperauditor](https://hypeauditor.com) username and password.
+> and [Instagram](https://instagram.com) username and password.
+
+This gets and creates an excel report of first 5 influencers.
+You can change THE NUMBER in "line 197" as you want
