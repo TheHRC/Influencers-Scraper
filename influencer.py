@@ -106,7 +106,7 @@ class Influencer:
 
         print("Getting influencer's data from Instagram...")
         bot = instaloader.Instaloader()
-        # bot.login(self.insta_username,self.insta_password)
+        bot.login(self.insta_username,self.insta_password)
         ig_user = instaloader.Profile.from_username(bot.context, self.username)
         self.fullname = ig_user.full_name
         self.bio = ig_user.biography
@@ -137,7 +137,7 @@ class Influencer:
         
         print("Getting recent 5 posts with details")
         bot = instaloader.Instaloader(download_videos=False, download_video_thumbnails=False)
-        # bot.login(self.insta_username, self.insta_password)
+        bot.login(self.insta_username, self.insta_password)
         u = instaloader.Profile.from_username(bot.context, self.username)
         i = 1
         post_details = {}
