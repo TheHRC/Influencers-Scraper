@@ -31,4 +31,6 @@ Use these commands
 
 ```
  env/Scripts/activate
+ pip install
+ requirements.txt
 ```
