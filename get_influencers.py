@@ -4,15 +4,12 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 import time
-from creds import username, password
+from creds import get_hydeauditor_cred
 
+username, password = get_hydeauditor_cred()
 
 browser = webdriver.Chrome("./driver/chromedriver.exe")
-browser.get(f"https://hypeauditor.com/top-instagram") 
-# avater = []
-# for i in range(1,51):
-#     avater.append(tbody.find_elements_by_xpath(f'/html/body/div/div/div/div[1]/div/div[2]/div/div[2]/table/tbody/tr[{i}]/td[3]/div/div[1]/img')[0])
-
+browser.get(f"https://hypeauditor.com/top-instagram")
 
 def login(browser, username,password):
     print("from login()")
