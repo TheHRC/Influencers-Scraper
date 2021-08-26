@@ -128,8 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# data directories
-data/
-
 # vs code stuff
 .idea

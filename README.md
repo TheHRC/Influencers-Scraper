@@ -34,3 +34,22 @@ Use these commands
  pip install
  requirements.txt
 ```
+
+## Run the Project
+
+- Follow the steps
+
+```
+python get_influencers.py
+```
+
+It will ask for the [Hyperauditor](https://hypeauditor.com) username and password
+
+- Next
+
+```
+python influencer.py
+```
+
+This get and create an excel report of first 5 influencers.
+You can change THE NUMBER in "line 197" as you want
