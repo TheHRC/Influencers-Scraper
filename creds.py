@@ -18,7 +18,8 @@ def get_insta_cred():
         os.environ["i_u_name"] = user_name
         os.environ["i_u_pass"] = user_pass
 
-    return (user_name,user_pass)
+    return (user_name, user_pass)
+
 
 def get_hydeauditor_cred():
     """

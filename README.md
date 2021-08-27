@@ -1,10 +1,12 @@
 # Influencers-Scraper
 
-Get's top 1000 Instagram influencer's list and scrapes their details as well as 5 recent post from Instagram along with Youtube subscribers &amp; Tiktok followers count.
+Gets top 1000 Instagram Influencers list and scrapes their details as well as 5 recent post from Instagram along with Youtube subscribers &amp; Tiktok followers count and stores it to individual '.xlsx' files
 
 ## To get started
 
-This project requires you have
+This project requires you to have:
+
+- [Python 3.9.0] (https://www.python.org/downloads/release/python-390/)
 
 - A [Hyperauditor](https://hypeauditor.com) account. [Signup Here](https://hypeauditor.com/signup/)
 
@@ -58,8 +60,10 @@ You can change THE NUMBER in "line 197" as you want
 ## End Results
 
 In the "Examples" folder, you can take a look of the end results of the scripts
+
 - From "get_influencers.py"
-> Influencer_data.txt
+
+  > Influencer_data.txt
 
 - From "influencer.py"
-> cristiano.xlsx
+  > cristiano.xlsx
