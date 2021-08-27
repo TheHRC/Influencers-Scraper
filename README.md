@@ -16,7 +16,7 @@ This project requires you to have:
 
 Use these commands
 
-- Create, Activate a virtual environment and install requirements
+Create, Activate a virtual environment and install requirements
 
 - On mac & linux
 
