@@ -6,7 +6,7 @@ Gets top 1000 Instagram Influencers list and scrapes their details as well as 5 
 
 This project requires you to have:
 
-- [Python 3.9.0] (https://www.python.org/downloads/release/python-390/)
+- [Python 3.9.0](https://www.python.org/downloads/release/python-390/)
 
 - A [Hyperauditor](https://hypeauditor.com) account. [Signup Here](https://hypeauditor.com/signup/)
 
