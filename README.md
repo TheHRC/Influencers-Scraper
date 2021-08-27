@@ -14,25 +14,23 @@ This project requires you have
 
 Use these commands
 
-- Create a virtual environment
-
-```
-   python -m venv env
-```
+- Create, Activate a virtual environment and install requirements
 
 - On mac & linux
 
 ```
-   source ./env/Scripts/activate
-   pip3 install requirements.txt
+    python3 -m venv env
+    source ./env/Scripts/activate
+    pip3 install requirements.txt
 ```
 
 - On Windows
 
 ```
- env/Scripts/activate
- pip install
- requirements.txt
+    python -m venv env
+    env/Scripts/activate
+    pip install
+    requirements.txt
 ```
 
 ## Run the Project
@@ -40,7 +38,7 @@ Use these commands
 - Follow the steps
 
 ```
-python get_influencers.py
+    python get_influencers.py
 ```
 
 > It will ask for the [Hyperauditor](https://hypeauditor.com) username and password
@@ -48,7 +46,7 @@ python get_influencers.py
 - Next
 
 ```
-python influencer.py
+    python influencer.py
 ```
 
 > It will ask for the [Hyperauditor](https://hypeauditor.com) username and password.
@@ -56,3 +54,12 @@ python influencer.py
 
 This gets and creates an excel report of first 5 influencers.
 You can change THE NUMBER in "line 197" as you want
+
+## End Results
+
+In the "Examples" folder, you can take a look of the end results of the scripts
+- From "get_influencers.py"
+> Influencer_data.txt
+
+- From "influencer.py"
+> cristiano.xlsx

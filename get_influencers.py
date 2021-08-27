@@ -1,3 +1,5 @@
+from constants import DRIVER_PATH
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
@@ -8,7 +10,7 @@ from creds import get_hydeauditor_cred
 
 username, password = get_hydeauditor_cred()
 
-browser = webdriver.Chrome("./driver/chromedriver.exe")
+browser = webdriver.Chrome(DRIVER_PATH)
 browser.get(f"https://hypeauditor.com/top-instagram")
 
 def login(browser, username,password):
